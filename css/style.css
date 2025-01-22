@@ -1,0 +1,664 @@
+/*
+Theme Name: Northern Construction
+Description: A custom design for Northern Construction by <a href="http://gostrivelocal.com">Website Designer</a>StriveLocal in South Salem, New York.
+Version: 1.0
+Author: StriveLocal
+Author URI: http://gostrivelocal.com
+Template: enfold
+*/
+
+
+/******************************
+Table of Contents =TOC
+/******************************
+
+Color Guide
+Fonts
+Header
+Below Header Menu
+Home, Below Header Photos
+Home, After Slider CTA
+Home, Services
+Home, Gallery
+Home, Testimonials and News
+Footer
+Secondary Pages
+Sidebar
+Forms
+Global Styles
+Mobile Styles
+
+*/
+
+/******************************
+=Color Guide
+
+#ffb600 - Yellow
+#779a0b - Green
+#919191 - Grey
+
+******************************/
+
+/******************************
+=Fonts
+******************************/
+
+#home-slider .template-page .entry-content-wrapper h2,
+#home-slider.main_color a,
+#top #home-testimonial-scroll .av-large-testimonial-slider .avia-testimonial-content {font-weight: 100 !important;}
+
+#home-slider span {font-weight: 400 !important;}
+
+
+/******************************
+=Header
+******************************/
+.html_header_top.html_header_topbar_active.html_header_sticky #top #main {
+    padding-top: 133px;
+}
+
+/*Top Bar*/
+#header_meta {
+/*    background: url(/wp-content/themes/northern-construction/images/topbar.jpg) center center no-repeat;
+    background-size: cover;*/
+/*    border-top: none;
+    border-color: #000000;*/
+    background-color: transparent;
+}
+
+#header_meta .container {
+    min-height: 43px;
+    padding-top: 7px;
+}
+
+#top #wrap_all .social_bookmarks, #top #wrap_all .social_bookmarks a, #top #wrap_all .social_bookmarks li {
+    color: #fff;
+    border: none;
+}
+
+
+#top #wrap_all .social_bookmarks {
+    display: block;
+    position: absolute;
+    right: 20%;
+    top: 80px;
+    font-size: 28px;
+}
+
+#top #wrap_all .social_bookmarks li {
+    color: #fff;
+    border: none;
+    background: #000;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#top #wrap_all .social_bookmarks a {
+    width: 50px;
+    line-height: 50px;
+    min-height: 50px;
+
+}
+
+#top #wrap_all .social_bookmarks li a:hover {background-color: #cc0000;}
+
+.header_color #header_meta .sub_menu>ul>li>a {color: #fff;}
+
+.header_color .sub_menu>ul>li.redbtn a {background-color: #cc0000;padding: 10px 25px;}
+
+.header_color .av-subnav-menu a:hover, 
+.header_color .main_menu ul:first-child > li a:hover, 
+.header_color .main_menu ul:first-child > li.current-menu-item > a, 
+.header_color .main_menu ul:first-child > li.current_page_item > a, 
+.header_color .main_menu ul:first-child > li.active-parent-item > a {
+    color: #ffffff;
+}
+
+.header_color .phone-info {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 69px;
+}
+
+.av_secondary_right .sub_menu {
+    padding-left: 10px;
+    display: block;
+    position: absolute;
+    right: 20%;
+    top: 50px;
+    font-size: 22px;
+    text-shadow: 1px 2px 5px #000000;
+}
+
+/*.header_color #header_meta * {
+    font-size: 22px !important;
+    font-weight: normal;
+}*/
+
+.header_color .phone-info a {
+    background-color: #cc0000;
+    padding: 38px 20px;
+    color: #ffffff;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px #000000;
+    -webkit-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
+
+.header_color .phone-info a:hover {
+    text-decoration: none;
+    background-color: #000000;
+}
+
+.header_color .header_bg {
+    background: url(../images/northern-pavement-bg.jpg) center center no-repeat;
+    background-size: cover;
+    border-top: none;
+}
+
+.header_color div span.logo {
+    float: left;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: -22px;
+}
+
+.av_minimal_header #header_main_alternate {
+    border: none;
+    background-color: #df0000;
+}
+
+#top .sub_menu>ul, #top .sub_menu>ul>li {border: 0;}
+
+.header_color .main_menu ul:first-child > li > a {
+    color: #ffffff;
+    text-shadow: 1px 2px 5px #000000;
+}
+
+.html_header_top.html_bottom_nav_header #header_main_alternate .main_menu ul:first-child {
+    width: 71%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.avia-menu-fx {
+    bottom: -2px;
+    height: 4px;
+}
+
+.av-main-nav > li > ul {
+    border-top-width: 4px;
+    border-top-style: solid;
+    margin-top: -2px;
+    left: -70px;
+}
+
+.av-main-nav > li > a {
+    font-size: 22px;
+    margin: 0 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.header_color .av-main-nav > li,
+#top .header_color .sub_menu ul li a:hover {
+    -webkit-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, border-color 0.4s ease-in-out;
+}
+
+.header_color .av-main-nav > li:hover {
+    background-color: #000;
+} 
+
+
+
+.header_color .main_menu ul:first-child > li a:hover,
+#top .header_color .sub_menu ul li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/******************************
+=Home, Top Slider Section
+******************************/
+#top #main #home-slider.avia-section .template-page {padding: 240px 0 50px 0;}
+
+#home-slider .template-page .entry-content-wrapper h2 {color: #fff;font-size: 40px;}
+
+#home-slider.main_color a {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 20px;
+    display: block;
+    float: left;
+    margin-right:15px;
+}
+
+#home-slider.main_color a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+/******************************
+=Home, Free Estimate Form 
+******************************/
+#home-form {
+    background: url(../images/form-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+#home-form * {color: #fff;}
+
+#top #home-form .gform_wrapper ul li.gfield {
+    margin-bottom: 10px;
+    width: 50% !important;
+    float: left;
+    margin-top: 2px;
+}
+
+#top #home-form .gform_wrapper ul li.gfield:last-child {
+    width: 48% !important;
+    margin:0;
+    margin-left: 2% !important;
+}
+
+#top #home-form.main_color input[type='text'] {
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.25);
+}
+
+#top #home-form.main_color textarea {
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 0;
+    color: #fff;
+    padding: 15px;
+}
+
+#top #home-form.main_color input[type='text']:focus {border-color: #cc0000;color:fff;}
+
+#top #home-form.main_color input[type='text']::-webkit-input-placeholder,
+#top #home-form.main_color textarea::-webkit-input-placeholder {color: #dedede;}
+
+#top #home-form.main_color input[type='text']:-moz-placeholder,
+#top #home-form.main_color textarea:-moz-placeholder {color: #dedede;}
+
+#top #home-form.main_color input[type='text']::-moz-placeholder,
+#top #home-form.main_color textarea::-moz-placeholder {color: #dedede;}
+
+#top #home-form.main_color input[type='text']:-ms-input-placeholder,
+#top #home-form.main_color textarea:-ms-input-placeholder {color: #dedede;}
+
+#home-form .gform_wrapper .gform_footer {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+ #home-form.main_color input[type='submit'] {
+    background-color: transparent;
+    border-radius: 0;
+    border: 5px solid rgba(255, 255, 255, 0.35);
+    font-size: 22px;
+    padding: 15px 70px;
+}
+#home-form.main_color input[type='submit']:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.65);
+}
+
+#top #home-form form,
+#home-form .gform_wrapper {
+    margin-bottom: 0;
+}
+
+/******************************
+=Home, About
+******************************/
+.main_color .avia-icon-list .iconlist_icon {
+    background-color: #cc0000;
+}
+
+/******************************
+=Home, Testimonial Slider
+******************************/
+#top #main #home-testimonial-header.avia-section .template-page {padding: 30px 0 45px 0;}
+
+#home-testimonial-header.main_color img {margin-top: -105px;}
+
+#home-testimonial-header .template-page .entry-content-wrapper h2 {color: #fff;}
+
+#home-testimonial-scroll {
+    background: url(../images/testimonial-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.main_color div.blackbg {
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px 0;
+}
+
+#top #home-testimonial-scroll .av-large-testimonial-slider .avia-testimonial-content {
+    color: #fff;
+    font-size: 2em;
+    font-style: italic;
+}
+
+#top #home-testimonial-scroll .av-large-testimonial-slider .avia-testimonial-name {
+    font-size: 2.2em;
+    margin-top: 0;
+    font-family: 'Droid Serif', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff !important;
+}
+
+#top #home-testimonial-scroll .av-large-testimonial-slider .avia-slideshow-arrows a {display: none !important;}
+
+/******************************
+=Footer
+******************************/
+#footer {    
+   /* background: url(../images/form-bg.jpg) center center no-repeat;*/
+    background-size: cover;
+}
+
+.footer_color h3 {font-size: 22px;}
+
+#socket .copyright {
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+/******************************
+=Secondary Pages
+******************************/
+.avia-promocontent p {color: #000;}
+
+#top div .avia-gallery img {border-color: #e8e8e8;}
+
+.sidebar .gform_wrapper,
+.landing-form .gform_wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+#gform_widget-2,
+.landing-form {
+    background-color: #c9c9c9;
+    padding: 25px 25px 0 25px;
+}
+
+#top .main_color .sidebar .input-text, 
+#top .main_color .sidebar input[type='text'], 
+#top .main_color .sidebar input[type='input'], 
+#top .main_color .sidebar input[type='password'], 
+#top .main_color .sidebar input[type='email'], 
+#top .main_color .sidebar input[type='number'], 
+#top .main_color .sidebar input[type='url'], 
+#top .main_color .sidebar input[type='tel'], 
+#top .main_color .sidebar input[type='search'], 
+#top .main_color .sidebar textarea, 
+#top .main_color .sidebar select,
+#top .main_color .landing-form .input-text, 
+#top .main_color .landing-form input[type='text'], 
+#top .main_color .landing-form input[type='input'], 
+#top .main_color .landing-form input[type='password'], 
+#top .main_color .landing-form input[type='email'], 
+#top .main_color .landing-form input[type='number'], 
+#top .main_color .landing-form input[type='url'], 
+#top .main_color .landing-form input[type='tel'], 
+#top .main_color .landing-form input[type='search'], 
+#top .main_color .landing-form textarea, 
+#top .main_color .landing-form select {
+    border-color: #bfbebe;
+    background-color: #dcdcdc;
+    color: #000000;
+}
+
+.main_color #gform_widget-2 h3,
+.main_color .landing-form h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.gform_wrapper .gform_footer {
+    padding: 0;
+    text-align: center;
+}
+
+.sidebar .gform_wrapper .gform_footer input.button, 
+.sidebar .gform_wrapper .gform_footer input[type=submit],
+.landing-form .gform_wrapper .gform_footer input.button, 
+.landing-form .gform_wrapper .gform_footer input[type=submit] {
+    font-size: 15px;
+    margin: 0;
+    padding: 15px 40px;
+}
+
+.sidebar-callout {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.main_color .sidebar .sidebar-callout a,
+.main_color .landing-form .sidebar-callout a {color: #cc0000;}
+
+#top.parent-pageid-22 #main > div.stretch_full.container_wrap.alternate_color.light_bg_color.title_container > div > div > div > span:nth-child(4) > a,
+#top.parent-pageid-22 #main > div.stretch_full.container_wrap.alternate_color.light_bg_color.title_container > div > div > div > span:nth-child(5) {display: none;}
+
+/*Landing Pages*/
+#top .main_color .landing-head h2 strong,
+#top .main_color .landing-wrap h2 strong {color: #c00000 !important;}
+
+.landing-form .gform_wrapper .gform_footer {
+    padding: 0px 0 30px;
+    margin: 0px 0 0;
+    clear: both;
+    width: 100%;
+}
+
+/******************************
+=Global Styles
+******************************/
+.gc-cs-link, strong {color: inherit !important; text-decoration: inherit!important;}
+
+.blog-categories.minor-meta {display: none;}
+
+.main_color .slide-meta, .main_color .slide-meta a {font-size: 11px; color: #6c6964;}
+
+.template-page .entry-content-wrapper h1, .template-page .entry-content-wrapper h2,
+.widgettitle {text-transform: none;}
+
+#top .main_color .avia-color-theme-color {padding: 12px 26px;}
+
+#top .gform_wrapper ul li.gfield {padding-right: 0px;}
+
+/******************************
+=Fixed Tab
+******************************/
+#side-tabs a.support {
+    opacity: 0.9;
+    font-size: 16px;
+    background: #cc0000;
+    left: -71px;
+    bottom: 25%;
+    height: 40px;
+    width: 175px;
+    margin: 0;
+    padding: 10px;
+    position: fixed;
+    z-index: 999;
+    display: block;
+    color: #fff;
+    /* Safari */
+-webkit-transform: rotate(-90deg);
+-webkit-transform-origin: 50%  51%;
+/* Firefox */
+-moz-transform: rotate(-90deg);
+/* IE */
+-ms-transform: rotate(-90deg);
+/* Opera */
+-o-transform: rotate(-90deg);
+}
+
+#side-tabs a.support:hover,
+#side-tabs a.support:focus {
+    text-decoration: none;
+    opacity: 1;
+}
+
+
+
+/******************************
+=Mobile Styles
+******************************
+#mobile-advanced, 
+#mobile-advanced a, 
+#mobile-advanced .mega_menu_title {
+    background-color: #65420c;
+    color: #ffffff;
+    border-color: #805616;
+}
+
+#mobile-advanced li > a:before, 
+.html_header_mobile_behavior #mobile-advanced span > a:before, 
+#mobile-advanced .mega_menu_title:before {color: #638b18;}
+
+html body #advanced_menu_hide[data-av_iconfont='entypo-fontello']:before,
+ #advanced_menu_hide {
+    background-color: #ffffff;
+    color: #65420c;
+    border-color: #65420c;
+}
+*/
+
+#top #av-burger-menu-ul {
+    vertical-align: top;
+}
+
+/*Smaller than 1296*/
+@media only screen and (max-width: 1296px) { 
+    .html_header_top.html_bottom_nav_header #header_main_alternate .main_menu ul:first-child {
+        width: 78%;
+    }
+}
+
+/*Smaller than 1190*/
+@media only screen and (max-width: 1190px) { 
+    .html_header_top.html_bottom_nav_header #header_main_alternate .main_menu ul:first-child {
+        width: 85%;
+    }
+}
+
+
+/*Smaller than 1190*/
+@media only screen and (max-width: 1102px) { 
+    .html_header_top.html_bottom_nav_header #header_main_alternate .main_menu ul:first-child {
+        width: 90%;
+    }
+}
+
+/*Smaller than 1190*/
+@media only screen and (max-width: 1047px) { 
+    .html_header_top.html_bottom_nav_header #header_main_alternate .main_menu ul:first-child {
+        width: 100%;
+    }
+}
+
+/*tablet and larger*/
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+/*tablet and smartphone*/
+@media only screen and (max-width: 989px) {
+    .avia-menu.av_menu_icon_beside {border-right-width: 0;}
+    .header_color .phone-info {display: none;}
+    .header_color .av-hamburger-inner, .header_color .av-hamburger-inner::before, .header_color .av-hamburger-inner::after {
+        background-color: #ffffff;
+    }
+    .responsive.html_mobile_menu_tablet #top #header_main > .container .main_menu .av-main-nav > li > a {
+        margin-top: -20px;
+    }
+    #top #wrap_all .social_bookmarks {
+        right: 120%;
+        top: 45px;
+        width: 90px;
+    }
+    #top #wrap_all .social_bookmarks li {
+        width: 30px;
+        height: 30px;
+    }
+    #top #wrap_all .social_bookmarks a {
+        width: 30px;
+        line-height: 30px;
+        min-height: 30px;
+        font-size: 18px;
+    }
+    .av_secondary_right .sub_menu {
+
+        right: 20%;
+        top: 40px;
+    }
+}
+
+/*tablet only */
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+
+
+}
+
+/*smartphone*/
+@media only screen and (max-width: 767px) {
+    #top #wrap_all .social_bookmarks, 
+    #top #wrap_all .social_bookmarks a, 
+    #top #wrap_all .social_bookmarks li,
+    .responsive #header_meta .sub_menu>ul>li#menu-item-52 {display: none;}
+    #home-slider .template-page .entry-content-wrapper h2 {text-align: center;}
+    #home-slider.main_color a {
+        float: none;
+        margin: 5px 0 0 0;
+        text-align: center;
+    }
+    #top #home-form .gform_wrapper ul li.gfield {
+        margin-bottom: 10px;
+        width: 100% !important;
+        float: none;
+    }
+    #top #home-form .gform_wrapper ul li.gfield:last-child {
+        width: 100% !important;
+        margin: 25px 0 0 0;
+    }
+    .centermobile *, #footer * {text-align: center !important;}
+    #text-4 > div > div.fb-page.fb_iframe_widget.fb_iframe_widget_fluid > span {text-align: left !important;}
+    #top #home-testimonial-scroll .av-large-testimonial-slider .avia-testimonial-content {font-size: 14px;}
+    #top #main #home-testimonial-header.avia-section .template-page {padding: 20px 0 15px 0;}
+    #top .main_color .avia-color-theme-color {
+        padding: 12px 26px;
+        margin: 0 0 20px 0;
+        float: none;
+    }
+    .avia-button-right {
+        display: block;
+        float: none;
+    }
+
+}
+
+/*iPhone 6*/
+@media only screen and (max-width: 376px) {
+
+}
+
+
+
+
+
